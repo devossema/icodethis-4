@@ -13,11 +13,8 @@ body .container {
     width: 550px;
     height: 300px;
     transform: scale(1);
-    box-shadow: 0 0 5px 5px rgba(77, 152, 209, 0.2);
-    transition: box-shadow 0.5s, transform 0.5s;
-    transform: scale(1.2);
-    box-shadow: 0 0 15px 7px rgba(77, 152, 209, 0.2);
-    transition: box-shadow 0.5s, transform 0.5s;
+    border-radius: 5px;
+    box-shadow: 0 0 5px 5px rgba(0,0,0,0.2);
 }
 
 .container h1 {
